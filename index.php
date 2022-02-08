@@ -22,7 +22,7 @@
     </header>
 
 <main>
-    <div class="">
+    <div style="background-color: #FFF5EC;"  class="">
         <div class="hero">
             <p class="herotitle">Mental Health Support And Reiki Services</p>
             <p>My website is currently under development</p>
