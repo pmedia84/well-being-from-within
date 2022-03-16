@@ -20,7 +20,7 @@
         <section class="primarybg">
             <div class="container bg-flower-borders">
                 <h2 class="section-title">My Contact Information</h2>
-                <p class="section-subtitle m-bt-1">Use the information below, or fill out the contact form and I will get back to to you.</p>
+                <p class="section-subtitle m-bt-1">Use the information below, or fill out the contact form and I will get back to you.</p>
                 <div class="grid-container-auto white-bg opacity-7 border-standard">
                     <div class="flex-col p-1">
                         <div class="address">
