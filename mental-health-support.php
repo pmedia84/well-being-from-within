@@ -21,7 +21,7 @@ aged 14 or over. I tailor my Mental Health Support to your individual preferance
 
     <section class="primarybg bg-lilly">
             <div class="container">
-                <h2 class="section-title">Find out More About My Mental Health Support</h2>
+                <h2 class="section-title">Find Out More About My Mental Health Support</h2>
 
                 <div class="grid-container m-bt-1">
                     <div class="textbox white-bg align-stretch">

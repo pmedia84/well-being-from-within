@@ -19,7 +19,7 @@
 
         <section class="primarybg bg-lilly">
             <div class="container">
-                <h2 class="section-title">Find out More About My Reiki Service</h2>
+                <h2 class="section-title">Find Out More About My Reiki Service</h2>
 
                 <div class="grid-container m-bt-1">
                     <div class="textbox white-bg align-stretch">
