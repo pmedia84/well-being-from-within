@@ -6,161 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mental Health Support and Reiki Services in Long Sutton Lincolnshire">
+    <title>Well Being From Within - Contact Me</title>
     
-    <title>Well Being From Within - Mental Health Support and Reki Services</title>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <?php include("inc/nav.inc.php"); ?>
-
-    
-
 
 
     <main>
-        <section class="primarybg">
-            <div class="hero">
-                <h1 class="herotitle">Mental Health Support And Reiki Services</h1>
-
-                <div class="herotext">
-                    <i class="fas fa-quote-left quote"></i>
-                    <p class="">As a registered Mental Health Nurse, I am
-                        able to offer mental health support to anyone
-                        aged 14 or over.</p>
-                </div>
-
-
-                <div class="hero-profile">
-                    <img class="hero-profile-image" src="img/melissadye.webp" alt="Image of Melissa Dye">
-                    <p class="profile-name">Melissa Dye</p>
-                    <p class="profile-title">Owner</p>
-                </div>
-            </div>
-        </section>
-
-        <div class="banner-centered">
-            <img class="banner-image" src="img/Leaves.svg" alt="">
+<section class="hero-pages cs-hero">
+        <div class="container">
+            <h1>Coming Soon</h1>
         </div>
+    </section>
 
-        <section class="primarybg ">
+
+
+    <section class="primarybg">
             <div class="container bg-lilly">
-                <h2 class="section-title ">My Services</h2>
-                <div class="flex-container">
-                    <div class="services-textbox">
-                        <div class="services-textbox-icon">
-                            <img src="img/reiki.svg" alt="">
-                        </div>
-                        <div class="services-textbox-text">
-                            <h3 class="services-textbox-text-title">Reiki</h3>
-                            <p>Reiki is a gentle complementary
-                                therapy, that is suitable for everyone.</p>
-                            <a href="reiki-services">Find Out More About My Reiki Services</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex-container  flex-right">
-                    <div class="services-textbox">
-                        <div class="services-textbox-icon">
-                            <img src="img/Counseling.svg" alt="">
-                        </div>
-                        <div class="services-textbox-text">
-                            <h3 class="services-textbox-text-title">Mental Health Support</h3>
-                            <p>As a registered Mental Health Nurse, I am
-                                able to offer mental health support to anyone
-                                aged 14 or over</p>
-                            <a href="mental-health-support">Find Out More About My Mental Health Support</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </section>
-
-        <div class="banner-centered">
-            <img class="banner-image" src="img/Leaves.svg" loading="lazy" alt="">
-        </div>
-
-        <section class="primarybg">
-
-            <div class="container bg-flower-borders">
-                <h2 class="section-title">About Me</h2>
-
-                <div class="grid-container">
-
-                    <div class="profile-card-outer">
-                        <img src="img/melissadye.webp" loading="lazy" alt="Profile Picture of Melissa Dye" class="profile-card-img">
-                        <h3 class="profile-card-title">Melissa Dye</h3>
-                        <p class="profile-card-desc">Owner</p>
-                        <p class="profile-card-text">My name is Melissa. I am a registered
-                            mental health nurse with experience working
-                            in secondary mental health care since
-                            January 2012.</p>
-                        <div class="profile-card-social">
-                            <a href="https://www.facebook.com/wellbeingfromwithin2222/" target="_blank" rel="noopener"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="textbox white-bg align-stretch">
-                        <p class="">I feel strongly that mental health support should be easy to access and my aim is to help to bridge the gaps in current services.
-                            In 2019 I experienced my own trauma,being diagnosed with breast cancer shortly after my son was born. Following treatment for this I experienced severe anxiety and
-                            panic attacks. I was treated for this with Acceptance and Commitment Therapy (ACT) and through my discovery of yoga, meditation and the power of the present moment. This journey has taken me down a rabbit hole of ways to manage mental health without or alongside medication. Well-being from within is the combination of my biggest passions in life and I can’t wait to share it with you!</p>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-        </section>
-
-        <div class="container"><img class="banner-image" src="img/rainbow.svg" loading="lazy" alt="Defining Reiki Principles from Well-being From Within"></div>
-
-        <section class="primarybg ">
-            <div class="container bg-flower-borders">
-                <h2 class="section-title ">Prices</h2>
+                <h2 class="section-title">Find out what I am planning to introduce in the future and register your interest</h2>
 
                 <div class="grid-container m-bt-1">
+                    <div class="textbox white-bg align-stretch">
+                        <h3 class="text-box-title">Meditation Teacher Training</h3>
+                        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt sunt explicabo tenetur temporibus repellat quasi quam molestiae laboriosam. Tempore doloremque optio eos, maiores vitae voluptates ducimus numquam recusandae et aspernatur expedita ea fugit amet laborum eaque dolores, minus corporis eligendi nemo? Eum fuga reiciendis et optio rerum nam assumenda at, doloribus autem, vel reprehenderit eius quae ex explicabo eligendi cum quis molestias officia, quibusdam blanditiis ducimus! Voluptatibus rerum fugiat, tempore ipsam, eligendi aliquam blanditiis obcaecati eaque nulla quis quidem voluptatem modi nemo illum! Fugiat enim facere neque aliquid natus recusandae quis libero odit cupiditate laboriosam? Porro quae quidem tempore veritatis?</p>
+                    </div>
 
-                    <ul class="price-card">
-                        <li class="price-card-header">Reiki</li>
-                        <li class="price-card-item">1 Hour<span>£35.00</span></li>
-                        <li class="price-card-item">30 Minutes<span>£20.00</span></li>
-                        
-                    </ul>
-
-                    
-                    <ul class="price-card">
-                        <li class="price-card-header">Mental Health Support</li>
-                        <li class="price-card-subtitle">Free 15 Minute Consultation</li>
-                        <li class="price-card-item">1 Hour<span>£40.00</span></li>
-                        <li class="price-card-item">30 Minutes<span>£25.00</span></li>
-                        
-                    </ul>
-
-
+                    <div class="textbox white-bg">
+                    <h3 class="text-box-title">Accupuncture</h3>
+                    <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt sunt explicabo tenetur temporibus repellat quasi quam molestiae laboriosam. Tempore doloremque optio eos, maiores vitae voluptates ducimus numquam recusandae et aspernatur expedita ea fugit amet laborum eaque dolores, minus corporis eligendi nemo? Eum fuga reiciendis et optio rerum nam assumenda at, doloribus autem, vel reprehenderit eius quae ex explicabo eligendi cum quis molestias officia, quibusdam blanditiis ducimus! Voluptatibus rerum fugiat, tempore ipsam, eligendi aliquam blanditiis obcaecati eaque nulla quis quidem voluptatem modi nemo illum! Fugiat enim facere neque aliquid natus recusandae quis libero odit cupiditate laboriosam? Porro quae quidem tempore veritatis?</p>
+                    </div>
                 </div>
-
-                <p class="text-ctr"><a href="contact">Contact Me To Book An Appointment</a></p>
+            
             </div>
         </section>
 
-        <div class="banner-centered">
-            <img class="banner-image" src="img/Leaves.svg" alt="">
-        </div>
 
         <section>
-            <div class="container p-none">
-                <h2 class="section-title m-bt-1">Want to get in touch or make an appointment?</h2>
-                <p class="section-subtitle m-bt-1 ">Fill out the form below and I will get back to you.</p>
+            <div class="container">
+                <h2 class="section-title">Register Your Interest</h2>
+                <p class="section-subtitle">I will keep you up to date and let you know when I will be offering these services.</p>
 
                 <div id="contactdiv">
                     <!-- =========== -->
                     <!-- custom styling for inputs -->
                     <!-- =========== -->
                     <!-- Prepend all inputs with an icon helper -->
-                    <form id="indexform" action="index_form_script.php" name="indexform">
+                    <form id="indexform" action="coming-soon_form_script.php" name="indexform">
 
 
                         
@@ -206,11 +96,11 @@
                                 </div>
 
                                 <div class="form-wrapper">
-                                    <label class="input-label" for="service">Service Required</label>
+                                    <label class="input-label" for="service">Service</label>
                                     <div class="select-form-wrapper">
                                         <select class="form-select" name="service" id="service">
-                                            <option value="Reiki" selected>Reiki</option>
-                                            <option value="Mental Health Support">Mental Health Support</option>
+                                            <option value="Meditation Teacher Training" selected>Meditation Teacher Training</option>
+                                            <option value="Accupuncture">Accupuncture</option>
                                         </select>
                                     </div>
                                 </div>
@@ -224,7 +114,7 @@
                                     <div id="validation" class="g-recaptcha text-center" data-sitekey="6LeuNYQeAAAAADZcl858Wm9Qz5zeXAq0nUIRf8-D"></div>
                                     <div id="success"></div>
                                     <div id="submit">
-                                        <button class="btn" id="sendMessageButton" type="submit">Send Message</button>
+                                        <button class="btn" id="sendMessageButton" type="submit">Register Interest</button>
                                     </div>
                                 </div>
                                 <!-- success - for status messages -->
@@ -236,23 +126,11 @@
 
                 </div>
 
-
-
-
-
             </div>
-
-
-
-
-
-
         </section>
+</main>
 
-    </main>
-
-
-    <script type="text/javascript">
+<script type="text/javascript">
         //set vars for checking status of recaptcha
         var recaptchaCheck = false;
         var recaptchaRequired = false;
@@ -344,7 +222,7 @@
                                     grecaptcha.reset();
                                     $('#button-section').slideDown('slow');
                                 } else {
-                                    //response pass, hide recaptcha and button, show section for messages
+                                    //response pass, hid recaptcha and button, show section for messages
                                     $('#validation').hide();
                                     $('#submit').hide();
                                     $('#button-section').slideDown('slow');
@@ -361,4 +239,4 @@
             });
         }(jQuery));
     </script>
-    <?php include("inc/footer.inc.php"); ?>
+    <?php include("inc/footer.inc.php");?>

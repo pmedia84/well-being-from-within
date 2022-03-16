@@ -1,0 +1,110 @@
+.primarybg{
+    background-color: $primary;
+}
+
+.secondarybg{
+    background-color: $secondary;
+}
+.d-none{
+    display: none;
+}
+
+.m-bt-1{
+    margin-bottom: 1rem;
+}
+
+
+.m-bt-0{///Remove margin
+    margin-bottom: 0;
+}
+
+/// Add 3rem of padding
+.p-1{
+    padding: 3rem;
+}
+/// Remove Top Padding
+.p-none{
+    padding-top: 0;
+}
+
+///Remove Bottom Padding
+.p-bt-0{
+    padding-bottom: 0;
+}
+
+/// flex utility settings
+
+.flex-right{//aligns the flex item to the right
+    @media(min-width: $maxsize){
+    justify-content: flex-end;}
+}
+
+/// makes a flex column
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/// Apply BG Graphics on larger screens
+@media (min-width: $maxsize){
+.bg-lilly{
+    background-image: url("../img/lilly.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: clamp(150px, 25vw, 300px);
+     
+}
+}
+
+///Flower borders, top left and top right
+
+.bg-flower-borders{
+    background-image: url("../img/flower-corner-l.svg"), url("../img/flower-corner-r.svg");
+    background-repeat: no-repeat;
+    background-position: top 2rem left, top 2rem right;
+    background-size: clamp(150px, 25vw, 300px);
+}
+
+/// White Background setting
+.white-bg{
+    background-color: #fff;
+}
+
+///decrease Opacity to 0.7
+.opacity-7{
+    opacity: 0.7;
+}
+
+///Applies a standard border of 1 px around the container
+.border-standard{
+    border: 1px solid $secondary;
+}
+
+///Apply a bottom Border in white
+.bottom-border{
+    border-bottom: 2px solid $secondary;
+}
+///Stretch a flex item 
+.align-stretch{
+    align-self: stretch;
+}
+
+///Call To Action Text Banner
+.cta{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+/// Align Text Centre
+.text-ctr{
+    text-align: center;
+    display: block;
+}
+
+//// Small Note Text Styles
+.small{
+    font-size: 0.75rem;
+}

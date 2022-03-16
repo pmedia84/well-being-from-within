@@ -1,9 +1,17 @@
 .navcontainer{
     border-bottom: 2px solid $secondary ;
     background-color: $primary;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 132px;
+    z-index: 10;
 }
 
+.menu-btn:focus + .navbar-menu-links{
+    transform: translateX(0%);
+    opacity: 1;
+}
 .navbar{
     width: 100%;
     display: flex;
@@ -14,12 +22,15 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-
-
-
+.navbar-brand a:hover{
+    opacity: 1;
+    border: none;
+}
 .navbar-menu-btn{
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
 }
 
 
@@ -29,4 +40,170 @@
     background-color: $secondary;
     margin: 10px;
     border-radius: 5px;
+}
+
+.bar-1, .bar-2{
+    
+    transform: translatey(0) ;
+    transition: all 300ms ease-in-out;
+}
+.menu-bar-focus .bar-1{
+    margin: 10px;
+    transform: translatey(4px);
+    
+}
+
+.menu-bar-focus .bar-2{
+    
+    transform: translatey(-4px);
+  // width: 32.5px;
+
+}
+
+
+
+.menu-text{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+// Nav menu container
+.navbar-menu-links{
+    position: absolute;
+    //margin-top: 132px;
+    top: 132px;
+    right: 0;
+    z-index: 1;
+    transform: translateX(110%) rotate(-5deg);
+    
+    height:  calc(100vh - 132px);
+    min-height: -webkit-fill-available;
+    width: 100%;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.9);
+    
+    transition: 0.7s cubic-bezier(.17,.84,.44,1);
+    
+}
+
+
+
+.menu-image{
+    display: none;
+   
+    img{
+       
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    }
+}
+.menu{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    justify-content: space-between;
+    padding: 3rem 1rem 3rem 1rem;
+
+
+    
+
+    li{
+        margin: 1rem;
+        font-size: 2rem;
+        font-weight: 400;
+       // text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    a{
+        color: $secondary;
+        text-decoration: none;
+        font-size: 2rem;
+        
+    }
+}
+
+
+@supports (backdrop-filter: blur(8.1px)){
+    .navbar-menu-links{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.74);
+
+backdrop-filter: blur(12.4px);
+-webkit-backdrop-filter: blur(12.4px);
+    }
+}
+
+.navbar-menu-links-active{
+   
+    transform: translateX(0%);
+    opacity: 1;
+    
+}
+
+
+// Animation for nav menu links
+@keyframes navlinksfade {
+    from{
+        opacity: 0;
+        transform:translatex(50px);
+    }
+
+    to{
+        opacity:1;
+        transform:translatex(0%)
+    }
+} 
+
+//Larger Menu Settings
+
+@media (min-width: $maxsize){
+    .navbar-menu-links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        min-height: calc(100vh - 132px);
+        min-height: -webkit-fill-available;
+    }
+    .menu-image{
+        
+        display: block;
+        grid-column: 1/2;
+        background-color: rgb(133, 133, 133);
+        background-image: url("../img/hero-menu-img.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        img{
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.7;
+           
+        }
+    }
+
+   
+
+    .menu{
+       
+        grid-column: 2 / 3;
+        grid-row: 1/2;
+       align-self: center;
+    }
+
+ 
+
+}
+
+.contact-link:hover + div .menu-image{
+    background-color: rgb(255, 0, 0) !important;
 }

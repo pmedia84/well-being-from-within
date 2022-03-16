@@ -1,3 +1,32 @@
+*{
+	::-webkit-scrollbar{
+		width: 0.5em;
+		
+	}
+	::-webkit-scrollbar-thumb{
+		background: #82aab3;
+		
+		border-radius: 0.375rem;
+		&:hover{
+			background: #82aab3a1;
+		}
+	}
+
+	::-webkit-scrollbar-track{
+		background: #FFF5EC;
+		border: 0.5px solid #82aab3;
+		border-radius: 0.375rem;
+		margin-block: 0.25rem;
+	}
+}
+
+@supports (scrollbar-color: #82aab3 #FFF5EC){
+	*{
+		scrollbar-color: #82aab3 #FFF5EC ;
+		scrollbar-width: auto;
+	}
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,7 +53,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.7;
     
 }
 ol, ul {
@@ -47,6 +76,24 @@ table {
     box-sizing: border-box;
 }
 
-p{
-    margin-bottom: 0.5rem;
+
+
+img{
+	width: 100%;
+	height: auto;
 }
+
+body{
+	-webkit-tap-highlight-color: transparent ;
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: space-between;
+}
+
+main{
+	align-self: flex-start;
+	width: 100%;
+	flex-grow: 1;
+}
+

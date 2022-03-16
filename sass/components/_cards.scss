@@ -1,0 +1,100 @@
+
+//// Profile Card Settings
+.profile-card-outer{
+    max-width: 400px;
+    padding: 3rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.7);
+  
+    @media(min-width:$maxsize){
+        place-self: start;
+    }
+  
+    h3{
+        font-size: 1.75rem;
+        margin-bottom: 0.25rem;
+    }
+
+}
+
+
+.profile-card-img{
+    max-width: 160px;
+    border-radius: 50%;
+}
+
+.profile-card-desc{
+    color: $secondarytext;
+    font-family: $handwriting;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.profile-card-text{
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+.profile-card-social{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   a{
+       color: $secondarytext;
+       font-size: 1.75rem;
+       &:hover{
+           opacity: 0.8;
+           border: none;
+           color: $secondary;
+       }
+       &:focus{
+           opacity: 0.8;
+           border: none;
+           color:$secondary;
+       }
+   }
+    color: $secondary;
+}
+
+//////
+/// Price list Cards
+
+.price-card{
+    
+    margin: 0;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid $secondary;
+    border-radius: 0.25rem;
+    place-self: start;
+    li{
+        padding: 1.5rem;
+     
+ 
+    }
+    li+li {
+        border-top: 1px solid $secondary;
+      }
+}
+
+.price-card-header{
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 300;
+    background-color: rgba($secondary, 0.1);
+}
+
+.price-card-subtitle{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+  
+}
+
+.price-card-item{
+    display: flex;
+    justify-content: space-between;
+}
+

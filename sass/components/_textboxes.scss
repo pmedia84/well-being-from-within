@@ -1,0 +1,33 @@
+.services-textbox{
+    display:flex ;
+    
+    padding: 3rem;
+    p{
+        line-height: 1.7;
+        font-weight: 300;
+        max-width: 350px;
+    }
+}
+
+.services-textbox-icon{
+    min-width: 100px;
+    margin-right: 1rem;
+    @media (max-width:500px){
+        display: none;
+    }
+}
+
+///Plain Textbox with padding etc
+.textbox{
+    padding: 3rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    display: grid;
+    place-items: center;
+    opacity: 0.75;
+}
+
+.text-box-title{
+    margin-bottom: 0.5rem;
+}
