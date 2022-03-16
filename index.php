@@ -98,7 +98,7 @@
                             in secondary mental health care since
                             January 2012.</p>
                         <div class="profile-card-social">
-                            <a href="https://www.facebook.com/wellbeingfromwithin2222/" target="_blank" rel="noopener"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/wellbeingfromwithin2222/" target="_blank" rel="noopener"><i class="fa fa-facebook-official"></i></a><a href="https://www.instagram.com/wellbeingfromwithin2222/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
 
