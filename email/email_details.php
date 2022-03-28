@@ -1,6 +1,6 @@
 <?php
 /// Define who the emails get sent to from forms filled out
-$email_to = "karl@parrotmedia.co.uk";
+$email_to = "melissa@well-beingfromwithin.co.uk";
 
 $host = "mail.well-beingfromwithin.co.uk"; /// Hostname
 $username = "webmaster@well-beingfromwithin.co.uk"; ///Username
