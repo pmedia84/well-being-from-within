@@ -24,7 +24,7 @@
                     <i class="fas fa-quote-left quote"></i>
                     <p class="">As a registered Mental Health Nurse, I am
                         able to offer mental health support to anyone
-                        aged 14 or over.</p>
+                        aged 18 or over.</p>
                 </div>
 
 
