@@ -41,9 +41,10 @@
 
 
 
-
+<?php include("inc/cookie_policy.inc.php");?>
 </body>
 
 <script src="js/nav.js"></script>
+<script src="js/cookies.js"></script>
 
 </html>

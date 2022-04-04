@@ -27,7 +27,7 @@ aged 14 or over. I tailor my Mental Health Support to your individual preferance
                     <div class="textbox white-bg align-stretch">
                         <p class="">As a registered Mental Health Nurse, I am
 able to offer mental health support to anyone
-aged 14 or over. I will use principles from
+aged 18 or over. I will use principles from
 different psychological therapies as well as
 offering a listening ear for those in need. My
 approach to supporting you will be tailored

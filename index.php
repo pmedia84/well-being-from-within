@@ -66,7 +66,7 @@
                             <h3 class="services-textbox-text-title">Mental Health Support</h3>
                             <p>As a registered Mental Health Nurse, I am
                                 able to offer mental health support to anyone
-                                aged 14 or over</p>
+                                aged 18 or over</p>
                             <a href="mental-health-support">Find Out More About My Mental Health Support</a>
                         </div>
                     </div>
