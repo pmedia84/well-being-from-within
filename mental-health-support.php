@@ -57,7 +57,7 @@ your GP or contact your local crisis service.<br><br>
 I am offering a free 15 minute telephone
 consultation to anybody interested in this
 service or wanting to know if I am able to
-help them. DM me for more information
+help them. <a href="contact">Contact me for more information</a>
 
 </p>
                     </div>

@@ -28,7 +28,7 @@
 
                     <ul class="price-card">
                         <li class="price-card-header">Reiki<br></li>
-                        <li class="price-card-item price-card-subtitle">An ancient healing technique using non invasive touch to improve mental and ohysical well-being</li>
+                        <li class="price-card-item price-card-subtitle">An ancient healing technique using non invasive touch to improve mental and physical well-being</li>
                         <li class="price-card-item">1 Hour<span>£35.00</span></li>
                         <li class="price-card-item">30 Minutes<span>£20.00</span></li>
                         
