@@ -13,8 +13,8 @@
 
     <main>
 <section class="hero-pages services-hero">
-        <div class="container">
-            <h1>My Services</h1>
+        <div class="container hero-textbox">
+            <h1>Services</h1>
         </div>
     </section>
 
@@ -51,6 +51,7 @@
                 <p class="text-ctr"><a href="contact">Contact Me To Book An Appointment</a></p>
             </div>
         </section>
+        <img src="img/reiki.webp" alt="">
 </main>
 
 

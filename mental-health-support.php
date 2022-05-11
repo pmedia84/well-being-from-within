@@ -14,7 +14,7 @@ aged 14 or over. I tailor my Mental Health Support to your individual preferance
 
 <main>
 <section class="hero-pages mh-hero">
-        <div class="container">
+        <div class="container hero-textbox">
             <h1>Mental Health Support</h1>
         </div>
     </section>

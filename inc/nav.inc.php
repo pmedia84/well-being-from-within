@@ -57,10 +57,11 @@
 
                     <ul class="menu">
                         <li class="menu-link"><a href="index">Home</a></li>
-                        <li class="menu-link contact-link"><a class="contact-link" href="contact">Contact Me</a></li>
-                        <li class="menu-link mh-link"><a href="mental-health-support">Mental Health Support</a></li>
+                        
+                        <li class="menu-link "><a href="mental-health-support">Mental Health Support</a></li>
                         <li class="menu-link"><a href="reiki-services">Reiki</a></li>
                         <li class="menu-link"><a href="services">Services</a></li>
+                        <li class="menu-link"><a class="contact-link" href="contact">Contact Me</a></li>
                         <!-- <li class="menu-link"><a href="coming-soon">Coming Soon</a></li> -->
 
                         </ul>

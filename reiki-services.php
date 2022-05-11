@@ -12,7 +12,7 @@
 
     <main>
         <section class="hero-pages reiki-hero">
-            <div class="container">
+            <div class="container hero-textbox">
                 <h1>Reiki Services</h1>
             </div>
         </section>

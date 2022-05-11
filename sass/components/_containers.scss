@@ -49,15 +49,17 @@
 
 .hero-pages{
     background-image: url("../img/hero-menu-img.webp");
-    height: 50vh;
+    min-height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #9e9e9e30;
-    color: #ffffffdb;
-    background-blend-mode: screen;
+    color: rgba(9, 6, 6, 0.628);
     
+    display: grid;
+    place-items: center;
   
 }
+
+
 
 

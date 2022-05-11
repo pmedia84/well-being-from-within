@@ -11,8 +11,8 @@
     <?php include("inc/nav.inc.php"); ?>
 
     <main>
-        <section class="hero-pages contact-hero">
-            <div class="container">
+        <section class="hero-pages contact-hero ">
+            <div class="container hero-textbox">
                 <h1>Contact Me</h1>
             </div>
         </section>
@@ -25,7 +25,7 @@
                     <div class="flex-col p-1">
                         <div class="address">
                             <h3 class="section">Well-being From Within</h3>
-                            <p>10 Dunlin Drive, Long Sutton, Lincolnshire, PE12 9RR</p>
+                            
                         </div>
                         <div class="contactdetails">
                             <h3>Contact Details</h3>
@@ -40,8 +40,7 @@
                             <p class="small">Note: I am contactable any time of the day, simply reach out to me. My usual response time is 3 business days. </p>
                         </div> -->
                     </div>
-                    <iframe class="maps" width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen
-src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIeCpJPH510cRXwZqWd4jNR8&key=AIzaSyDQqkD-Qtu2LxJUkNGf7kuQBPX6mY-rgwI"></iframe>
+
                 </div>
             </div>
         </section>
