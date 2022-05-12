@@ -50,7 +50,7 @@
                     echo $url;
                     $page_name = "index";
                     if (strpos($url, $page_name) == true) {
-                        if ($url=="https://well-beingfromwithin.co.uk/"){
+                        if ($url=="/"){
                             echo"hi";}
                     } else {
                         echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';
