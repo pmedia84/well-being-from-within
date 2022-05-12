@@ -47,7 +47,7 @@
                     <!-- Check the page and determine if a logo should be shown in the nav bar or not -->
                     <?php
                     $url = $_SERVER['REQUEST_URI'];
-                    
+                    echo $url;
                     $page_name = "index";
                     if (strpos($url, $page_name) == true) {
                         if ($url=="https://well-beingfromwithin.co.uk/"){
