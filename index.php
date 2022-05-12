@@ -18,16 +18,14 @@
     <main>
         <section class="primarybg">
             <div class="hero">
-                <h1 class="herotitle">Mental Health Support And Reiki Services</h1>
+            <div class="hero-logo">
+                    <img class="hero-logo-image" src="img/logo.svg" alt="">
 
-                <div class="herotext">
+            </div>
+            <div class="herotext">
                     <i class="fas fa-quote-left quote"></i>
-                    <p class="">As a registered Mental Health Nurse, I am
-                        able to offer mental health support to anyone
-                        aged 18 or over.</p>
+                    <p class="">A holistic approach to mental health support from a registered Mental Health nurse and Reiki practitioner</p>
                 </div>
-
-
                 <div class="hero-profile">
                     <img class="hero-profile-image" src="img/melissadye.webp" alt="Image of Melissa Dye">
                     <p class="profile-name">Melissa Dye</p>
@@ -80,80 +78,7 @@
         <div class="banner-centered">
             <img class="banner-image" src="img/Leaves.svg" loading="lazy" alt="">
         </div>
-        <!-- <section class="primarybg ">
-            <div class="container bg-lilly">
-                <h2 class="section-title ">My Services</h2>
-                <div class="flex-container">
-                    <div class="services-textbox">
-                        <div class="services-textbox-icon">
-                            <img src="img/reiki.svg" alt="">
-                        </div>
-                        <div class="services-textbox-text">
-                            <h3 class="services-textbox-text-title">Reiki</h3>
-                            <p>Reiki is a gentle complementary
-                                therapy, that is suitable for everyone.</p>
-                            <a href="reiki-services">Find Out More About My Reiki Services</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex-container  flex-right">
-                    <div class="services-textbox">
-                        <div class="services-textbox-icon">
-                            <img src="img/Counseling.svg" alt="">
-                        </div>
-                        <div class="services-textbox-text">
-                            <h3 class="services-textbox-text-title">Mental Health Support</h3>
-                            <p>As a registered Mental Health Nurse, I am
-                                able to offer mental health support to anyone
-                                aged 18 or over</p>
-                            <a href="mental-health-support">Find Out More About My Mental Health Support</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </section> -->
-
- 
-
-        <!-- <section class="primarybg ">
-            <div class="container bg-flower-borders">
-                <h2 class="section-title ">Prices</h2>
-
-                <div class="grid-container m-bt-1">
-
-                    <ul class="price-card">
-                        <li class="price-card-header">Reiki</li>
-                        <li class="price-card-item">1 Hour<span>£35.00</span></li>
-                        <li class="price-card-item">30 Minutes<span>£20.00</span></li>
-                        
-                    </ul>
-
-                    
-                    <ul class="price-card">
-                        <li class="price-card-header">Mental Health Support</li>
-                        <li class="price-card-subtitle">Free 15 Minute Consultation</li>
-                        <li class="price-card-item">1 Hour<span>£40.00</span></li>
-                        <li class="price-card-item">30 Minutes<span>£25.00</span></li>
-                        
-                    </ul>
-
-
-                </div>
-
-                <p class="text-ctr"><a href="contact">Contact Me To Book An Appointment</a></p>
-            </div>
-        </section>
-
-        <div class="banner-centered">
-            <img class="banner-image" src="img/Leaves.svg" alt="">
-        </div> -->
-
-
+        
 
     </main>
 

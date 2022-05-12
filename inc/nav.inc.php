@@ -44,20 +44,20 @@
                 <p class="navbar-link d-none">Contact Me</p>
                 <div class="navbar-brand ">
 
-                <!-- Check the page and determine if a logo should be shown in the nav bar or not -->
-                <?php
-                $url = $_SERVER['REQUEST_URI'];
-                $page_name = "index";
-                if (strpos($url, $page_name) == true) {
-                } else {
-                    echo                 '
+                    <!-- Check the page and determine if a logo should be shown in the nav bar or not -->
+                    <?php
+                    $url = $_SERVER['REQUEST_URI'];
+                    $page_name = "index";
+                    if (strpos($url, $page_name) == true) {
+                    } else {
+                        echo                 '
                     <a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>
                 ';
-                }
+                    }
 
 
-                ?>
-</div>
+                    ?>
+                </div>
                 <div tabindex="0" class="navbar-menu-btn">
                     <p class="menu-text">Menu</p>
                     <div class="menu-bars">
