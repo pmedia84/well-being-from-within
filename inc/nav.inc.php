@@ -47,14 +47,16 @@
                     <!-- Check the page and determine if a logo should be shown in the nav bar or not -->
                     <?php
                     $url = $_SERVER['REQUEST_URI'];
-                    echo $url;
                     $page_name = "index";
-                    if (strpos($url, $page_name) == true) {
-                        if ($url=="/"){
-                            echo"hi";}
-                    }  else {
-                        echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';
+                    switch($url){
+                        case strpos($url, $page_name):
+                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';
+                        case"/":
+                            echo"";    
                     }
+                   
+                   
+
                    
 
                     ?>
