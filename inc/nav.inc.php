@@ -52,7 +52,7 @@
                         case strpos($url, $page_name):
                             echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';
                         case"/":
-                            echo"";    
+                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';    
                     }
                    
                    
