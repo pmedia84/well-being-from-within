@@ -47,19 +47,21 @@
                     <!-- Check the page and determine if a logo should be shown in the nav bar or not -->
                     <?php
                     $url = $_SERVER['REQUEST_URI'];
-                    $page_name = "index";
+
+                    
+
                     switch($url){
-                        case strpos($url, $page_name):
-                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';
-                            break;
+                       
                         case"/":
-                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>'; 
+                            echo''; 
                             break;  
-                        case "reiki-services":
-                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>'; 
+                        case "/index":
+                            echo''; 
                             break;
+                            default:
+                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>'; 
                     }
-                   echo$url;
+                 
                    
 
                    
