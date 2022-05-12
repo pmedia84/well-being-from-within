@@ -21,9 +21,15 @@
     width: 95%;
     max-width: 1200px;
     margin: 0 auto;
+    min-height: 125px;
 }
 .navbar-brand a:hover{
     opacity: 1;
+    border: none;
+}
+
+.navbar-brand a:focus{
+    text-decoration-line: none;
     border: none;
 }
 .navbar-menu-btn{
@@ -204,6 +210,3 @@ backdrop-filter: blur(12.4px);
 
 }
 
-.contact-link:hover + div .menu-image{
-    background-color: rgb(255, 0, 0) !important;
-}

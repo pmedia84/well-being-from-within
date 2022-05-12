@@ -5,17 +5,20 @@
 <meta property="og:url" content="https://www.well-beingfromwithin.co.uk" />
 <!--  -->
 <!-- Meta Theme Color -->
-<meta name="theme-color"content="#82aab3">
+<meta name="theme-color" content="#82aab3">
 <!--  -->
 <!-- Google Analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2D1Z7TWG3"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-Q2D1Z7TWG3');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Q2D1Z7TWG3');
 </script>
 
 <!--  -->
@@ -40,12 +43,25 @@
             <div class="navbar">
                 <p class="navbar-link d-none">Contact Me</p>
                 <div class="navbar-brand ">
+
+                <!-- Check the page and determine if a logo should be shown in the nav bar or not -->
+                <?php
+                $url = $_SERVER['REQUEST_URI'];
+                $page_name = "index";
+                if (strpos($url, $page_name) == true) {
+                } else {
+                    echo                 '
                     <a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>
-                </div>
-                <div tabindex="0" class="navbar-menu-btn" >
+                ';
+                }
+
+
+                ?>
+</div>
+                <div tabindex="0" class="navbar-menu-btn">
                     <p class="menu-text">Menu</p>
                     <div class="menu-bars">
-                   
+
                         <div class="menu-bar bar-1"></div>
                         <div class="menu-bar bar-2"></div>
                     </div>
@@ -53,25 +69,25 @@
 
 
             </div>
-          <div class="navbar-menu-links">
+            <div class="navbar-menu-links">
 
-                    <ul class="menu">
-                        <li class="menu-link"><a href="index">Home</a></li>
-                        
-                        <li class="menu-link "><a href="mental-health-support">Mental Health Support</a></li>
-                        <li class="menu-link"><a href="reiki-services">Reiki</a></li>
-                        <li class="menu-link"><a href="services">Services</a></li>
-                        <li class="menu-link"><a class="contact-link" href="contact">Contact Me</a></li>
-                        <!-- <li class="menu-link"><a href="coming-soon">Coming Soon</a></li> -->
+                <ul class="menu">
+                    <li class="menu-link"><a href="index">Home</a></li>
 
-                        </ul>
-                        <div class="menu-image">
+                    <li class="menu-link "><a href="mental-health-support">Mental Health Support</a></li>
+                    <li class="menu-link"><a href="reiki-services">Reiki</a></li>
+                    <li class="menu-link"><a href="services">Services</a></li>
+                    <li class="menu-link"><a class="contact-link" href="contact">Contact Me</a></li>
+                    <!-- <li class="menu-link"><a href="coming-soon">Coming Soon</a></li> -->
 
-</div>
-                       </div>
-                    
- 
+                </ul>
+                <div class="menu-image">
 
-                
+                </div>
+            </div>
+
+
+
+
         </nav>
     </header>

@@ -299,10 +299,16 @@ footer a {
   width: 95%;
   max-width: 1200px;
   margin: 0 auto;
+  min-height: 125px;
 }
 
 .navbar-brand a:hover {
   opacity: 1;
+  border: none;
+}
+
+.navbar-brand a:focus {
+  text-decoration-line: none;
   border: none;
 }
 
@@ -436,10 +442,6 @@ footer a {
     align-self: center;
   }
 }
-.contact-link:hover + div .menu-image {
-  background-color: red !important;
-}
-
 input {
   -webkit-appearance: none;
   border-radius: 0;
