@@ -50,12 +50,12 @@
                     echo $url;
                     $page_name = "index";
                     if (strpos($url, $page_name) == true) {
-                        if ($url=="/"){
-                            echo"hi";}
+                      
                     } else {
                         echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';
                     }
-
+                    if ($url=="/"){
+                        echo"hi";}
 
                     ?>
                 </div>
