@@ -51,10 +51,15 @@
                     switch($url){
                         case strpos($url, $page_name):
                             echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';
+                            break;
                         case"/":
-                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>';    
+                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>'; 
+                            break;  
+                        case "reiki-services":
+                            echo'<a href="index"><img src="img/logo.svg" alt="Well Being From Within Logo"></a>'; 
+                            break;
                     }
-                   
+                   echo$url;
                    
 
                    
