@@ -1,5 +1,5 @@
 // cookie policy
-$(document).on('ready', function() {
+$(document).ready(function() {
     if (document.cookie.indexOf("accepted_cookies=") < 0) {
       $('.cookie-overlay').removeClass('d-none').addClass('d-block');
     }
@@ -10,8 +10,12 @@ $(document).on('ready', function() {
     })
   
    
-    $('.close').on('click', function() {
-      $('.cookie-overlay').removeClass('d-block').addClass('d-none');
-    })
+
+  })
+  $('.close').on('click',function(){
+    $('.cookie-overlay').fadeOut(400);
+  })
+  $('.close').on('click', function() {
+    
   })
 
